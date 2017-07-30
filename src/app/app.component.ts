@@ -33,4 +33,6 @@ export class AppComponent {
     } );
 
     video:string = '6wJ1lMgtHFE';
+
+    clave:boolean = false;
 }

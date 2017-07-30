@@ -86,6 +86,12 @@
       <td>{{ valorDePromesa | async }}</td>
     </tr>
 
+    <tr>
+      <td><button type="button" (click)="clave = !clave">Cambiar</button></td>
+      <td> {{clave}} </td>
+      <td>{{ nombre | constrasenia:clave }}</td>
+    </tr>
+
   </tbody>
 </table>
 
